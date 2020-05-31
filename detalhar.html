@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title>Detalhamento</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/detalhar.css" />
   </head>
   <body>
     
@@ -16,20 +16,32 @@
         </ul>
       </header>
       <div class="detalhamento">
-        <ul>
-          <li>Data</li>
-          <li>Descrição</li>
-          <li>Receita</li>
-          <li>Despesa</li>
-        </ul>
         <form>
+          <div>
+          <label>Data</label>
           <input type="date">
+        </div>
+        <div>
+          <label>Descrição</label>
           <input type="text">
-          <input id="detalhar-receita" type="text" value="R$ ">
-          <input id="detalhar-despesa" type="text" value="R$ ">
+        </div>
+        <div>
+          <label>Receita</label>
+          <input type="text" value=" R$ " placeholder=" R$ "> 
+        </div>
+        <div>
+          <label>Despesa</label> 
+          <input class="cor-despesa" type="text" value=" R$ " placeholder=" R$ ">
+        </div>
         </form>
+
+        
+        
       </div>
-     
+      <div class="aplicar">
+        <button>Aplicar</button>
+      </div>
+      <div class="detalha-saldo"><h1>Saldo <span>0</span></h1></div>
     <script src="js/script.js"></script>
   </body>
 </html>
