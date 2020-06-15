@@ -48,16 +48,32 @@ input {
   display: block;
   padding: 0 10px;
   color: #129308;
+  margin-right: 40px;
 }
+.inicio-despesa::after {
+  content: "";
+  display: inline-table;
+  position: relative;
+  top: -65px;
+  right: 25px;
+  height: 60px;
+  background: black;
+}
+
 .inicio-despesa {
   display: block;
   color: #d30610;
 }
 .inicio-saldo {
+  position: relative;
+  top: -60px;
   width: 100%;
   text-align: center;
   color: #1f3ff2;
 }
 span {
   text-align: center;
+}
+.inicio-saldo.negativo {
+  color: #d30610;
 }

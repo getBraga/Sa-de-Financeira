@@ -33,6 +33,22 @@ input {
   color: #fff;
 }
 
+#botao-iniciar {
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+#botao-iniciar button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  background: none;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+}
+
 .detalhamento {
   max-width: 960px;
   margin: 0 auto;
@@ -40,8 +56,9 @@ input {
 
 .detalhamento form {
   display: flex;
-  margin: 20px 0;
-
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 20px auto;
   justify-content: center;
 }
 .detalhamento form div {
@@ -51,33 +68,86 @@ input {
 
 .detalhamento input {
   display: block;
-  max-width: 500px;
+  width: 123px;
   height: 20px;
 }
 
+@media screen and (max-width: 700px) {
+  .detalhamento form {
+    flex-direction: column;
+  }
+
+  .detalhamento input {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    height: 20px;
+  }
+  .detalhamento form div {
+    text-align: left;
+  }
+  .detalhamento form div label {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
 .aplicar {
-  width: 100%;
-  margin-top: 40px;
+  position: relative;
+  top: 19px;
   text-align: center;
 }
 .aplicar button {
-  padding: 0.5rem 1rem;
+  background: none;
+  max-width: 80px;
+  height: 30px;
+  font-size: 0.875em;
+  text-transform: uppercase;
+  border: 2px solid #000;
+  cursor: pointer;
+  z-index: 1;
+}
+.button-fechar {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: right;
+  position: relative;
+  top: 40px;
+}
+.fechar {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
   background: none;
   border: 2px solid #000;
   cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 700px) {
+  .fechar {
+    position: relative;
+  }
+  .button-fechar {
+    width: 70%;
+    margin: 0 auto;
+    left: 15px;
+  }
 }
 
 .detalha-saldo {
   margin-top: 40px;
+  margin-bottom: 20px;
   text-transform: uppercase;
   font-size: 1em;
   text-align: center;
 }
 
-.detalha-saldo.positivo {
+.saldo-h1.positivo {
   color: #129308;
 }
-.detalha-saldo.negativo {
+.saldo-h1.negativo {
   color: #d30610;
 }
 .cor-despesa {

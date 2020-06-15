@@ -7,41 +7,53 @@
     <link rel="stylesheet" type="text/css" href="css/detalhar.css" />
   </head>
   <body>
-    
+    <header class="header">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="detalhar.html">Detalhar</a></li>
+      </ul>
+    </header>
+
+    <div id="botao-iniciar">
+      <button>+</button>
+    </div>
     <div id="app-detalhar">
-      <header class="header">
-        <ul>
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="detalhar.html">Detalhar</a></li>
-        </ul>
-      </header>
-      <div class="detalhamento">
+      <!-- <div class="detalhamento">
         <form>
           <div>
-          <label>Data</label>
-          <input type="date">
-        </div>
-        <div>
-          <label>Descrição</label>
-          <input type="text">
-        </div>
-        <div>
-          <label>Receita</label>
-          <input type="text" value=" R$ " placeholder=" R$ "> 
-        </div>
-        <div>
-          <label>Despesa</label> 
-          <input class="cor-despesa" type="text" value=" R$ " placeholder=" R$ ">
-        </div>
+            <label>Data</label>
+            <input type="date" />
+          </div>
+          <div>
+            <label>Descrição</label>
+            <input type="text" />
+          </div>
+          <div>
+            <label>Receita</label>
+            <input type="text" value=" R$ " placeholder=" R$ " />
+          </div>
+          <div>
+            <label>Despesa</label>
+            <input
+              class="cor-despesa"
+              type="text"
+              value=" R$ "
+              placeholder=" R$ "
+            />
+          </div>
         </form>
+      </div> -->
+    </div>
+    <!-- <div class="aplicar">
+      <button class="button-aplicar">Aplicar</button>
+    </div> -->
+    <div class="aplicar">
+      <button class="button-aplicar">Aplicar</button>
+    </div>
 
-        
-        
-      </div>
-      <div class="aplicar">
-        <button>Aplicar</button>
-      </div>
-      <div class="detalha-saldo"><h1>Saldo <span>0</span></h1></div>
+    <div class="detalha-saldo">
+      <h1>Saldo <span class="saldo-h1">0</span></h1>
+    </div>
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,0 +1,33 @@
+{
+  "info": [
+    {
+      "date": "",
+      "descricao": "",
+      "receita": "",
+      "despesa": "500",
+      "id": 2
+    },
+    {
+      "date": "",
+      "descricao": "",
+      "receita": "300",
+      "despesa": "1000",
+      "id": 3
+    },
+    {
+      "date": "",
+      "descricao": "",
+      "receita": "6000",
+      "despesa": "",
+      "id": 4
+    }
+  ],
+  "total": [
+    {
+      "totalReceita": 6300,
+      "totalDespesa": 1500,
+      "totalSaldo": "4800.00",
+      "id": 1
+    }
+  ]
+}
