@@ -1,32 +1,18 @@
 {
   "info": [
     {
-      "date": "",
+      "date": "0002-06-15",
       "descricao": "",
-      "receita": "",
-      "despesa": "500",
-      "id": 2
-    },
-    {
-      "date": "",
-      "descricao": "",
-      "receita": "300",
-      "despesa": "1000",
-      "id": 3
-    },
-    {
-      "date": "",
-      "descricao": "",
-      "receita": "6000",
-      "despesa": "",
+      "receita": "100.00",
+      "despesa": "100.00",
       "id": 4
     }
   ],
   "total": [
     {
-      "totalReceita": 6300,
-      "totalDespesa": 1500,
-      "totalSaldo": "4800.00",
+      "totalReceita": 100,
+      "totalDespesa": 100,
+      "totalSaldo": "0.00",
       "id": 1
     }
   ]
