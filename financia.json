@@ -3,16 +3,16 @@
     {
       "date": "0002-06-15",
       "descricao": "",
-      "receita": "100.00",
+      "receita": "200.00",
       "despesa": "100.00",
       "id": 4
     }
   ],
   "total": [
     {
-      "totalReceita": 100,
+      "totalReceita": 200,
       "totalDespesa": 100,
-      "totalSaldo": "0.00",
+      "totalSaldo": "100.00",
       "id": 1
     }
   ]

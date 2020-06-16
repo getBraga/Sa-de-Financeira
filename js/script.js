@@ -2,8 +2,10 @@ const inicioSpanReceita = document.querySelector(".inicio-spanreceita");
 const inicioSpanDespesa = document.querySelector(".inicio-spandespesa");
 const inicioSpanSaldo = document.querySelector(".inicio-spansaldo");
 const corInicioSaldo = document.querySelector(".inicio-saldo");
-const urlInfo = "https://9c521d330c36.ngrok.io/info";
-const urlTotal = "https://9c521d330c36.ngrok.io/total/1";
+// const urlInfo = "https://3312f5b08887.ngrok.io/info";
+// const urlTotal = "https://3312f5b08887.ngrok.io/total/1";
+const urlInfo = "http://localhost:3000/info";
+const urlTotal = "http://localhost:3000/total/1";
 
 async function getUrl(url) {
   const pegaUrl = await fetch(url);
